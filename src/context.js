@@ -100,7 +100,7 @@ class RoomProvider extends Component {
         minSize = parseInt(minSize);
         maxSize = parseInt(maxSize);
 
-        if(minSize == "NaN"){
+        if(minSize === "NaN"){
             minSize = 0
         }
        
