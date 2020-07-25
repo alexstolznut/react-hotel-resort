@@ -11,7 +11,7 @@ export default function Rooms({id, rooms}) {
     return (
         <Link to={`/rooms/${slug}`} key={id} style={{textDecoration:"none", color:"#222"}}>
         <section className="room">
-            <div className="" className="img-container">
+            <div className="img-container">
                 <span className="price-top"><h6>${price}</h6><p>per night</p></span>
                 <img src={images[0] || defaultImg} style={{width:"100%", display:"block"}} alt={name}/>
                 <div className="btn-primary room-link">Featured</div>
